@@ -11,7 +11,7 @@ Started sample on 4/2/2021, ended on 4/10/2021.
 ### Results
 Had a total of 9229 login attempts from 101 unique clients.   Captured the source ip, the attempted user-name and password, the software version advertised by the attacking client and other connection details.
 
-![Overview of the aggregated results](https://github.com/jLevere/SSHoneypot1/DashboardOverview.jpg)
+![Overview of the aggregated results](https://github.com/jLevere/SSHoneypot1/blob/main/DashboardOverview.jpg)
 
 ### Setup
 Used python based pshitt honeypot to log the requests ssh login attempts in json to text file. Then used filebeat to scrape the entries in the file as they were written and forwarded them through vpn connection to graylog stack, where I parsed the messages with a json extractor and aggregated them in custom dashboard.
@@ -22,12 +22,13 @@ It took a few hours before the first login attempts started arriving.  The initi
 
 
 ### Files
+![Here are some examples of the messages that were collected](https://github.com/jLevere/SSHoneypot1/blob/main/ExamplesOfAttemptMessages.jpg)
 I have included a csv with the password and credentials that were used in request. [Credentials List](https://github.com/jLevere/SSHoneypot1/AttemptedCredentials.csv)
 
 ### Analysis
 
 Below are some different graphs of the data collected.
-![Some relations of unique values over time](https://github.com/jLevere/SSHoneypot1/SomeStats1.jpg)
+![Some relations of unique values over time](https://github.com/jLevere/SSHoneypot1/blob/main/SomeStats1.jpg)
 
 ### Summary
 If you have something exposed, know it will be tested.
