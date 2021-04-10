@@ -11,6 +11,7 @@ Started sample on 4/2/2021, ended on 4/10/2021.
 ### Results
 Had a total of 9229 login attempts from 101 unique clients.   Captured the source ip, the attempted user-name and password, the software version advertised by the attacking client and other connection details.
 
+Overview of the aggregated results:
 ![Overview of the aggregated results](https://github.com/jLevere/SSHoneypot1/blob/main/DashboardOverview.jpg)
 
 ### Setup
@@ -22,6 +23,8 @@ It took a few hours before the first login attempts started arriving.  The initi
 
 
 ### Files
+Here are some examples of the messages that were collected:
+
 ![Here are some examples of the messages that were collected](https://github.com/jLevere/SSHoneypot1/blob/main/ExamplesOfAttemptMessages.jpg)
 I have included a csv with the password and credentials that were used in request. [Credentials List](https://github.com/jLevere/SSHoneypot1/AttemptedCredentials.csv)
 
