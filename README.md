@@ -26,7 +26,7 @@ It took a few hours before the first login attempts started arriving.  The initi
 Here are some examples of the messages that were collected:
 
 ![Here are some examples of the messages that were collected](https://github.com/jLevere/SSHoneypot1/blob/main/ExamplesOfAttemptMessages.jpg)
-I have included a csv with the password and credentials that were used in request. [Credentials List](https://github.com/jLevere/SSHoneypot1/AttemptedCredentials.csv)
+I have included a csv with the password and credentials that were used in request. [Credentials List](https://github.com/jLevere/SSHoneypot1/blob/main/AttemptedCredentials.csv)
 
 ### Analysis
 
