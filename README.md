@@ -34,6 +34,6 @@ Below are some different graphs of the data collected.
 ![Some relations of unique values over time](https://github.com/jLevere/SSHoneypot1/blob/main/SomeStats1.jpg)
 
 ### Summary
-If you have something exposed, know it will be tested.
+- If you have something exposed, know it will be tested.
 
-- I would like to go back and add geographic information in at some point.  I had issues with bugs in graylogs web interface when attempting to configure processing pipelines to do this.
+I would like to go back and add geographic information in at some point.  I had issues with bugs in graylogs web interface when attempting to configure processing pipelines to do this.
