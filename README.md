@@ -35,6 +35,9 @@ I have included a csv with the password and credentials that were used in reques
 Below are some different graphs of the data collected.
 ![Some relations of unique values over time](https://github.com/jLevere/SSHoneypot1/blob/main/SomeStats1.jpg)
 
+Additionally, the top attempts by country and city.  These are the top 15 of each, there were 23 different countries in total.
+![Countries and cities](https://github.com/jLevere/SSHoneypot1/blob/main/GeoLocationResults.jpg)
+
 
 ### Summary
 - If you have something exposed, know it will be tested.
