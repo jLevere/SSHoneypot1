@@ -40,6 +40,4 @@ Additionally, the top attempts by country and city.  These are the top 15 of eac
 
 
 ### Summary
-- If you have something exposed, know it will be tested.
-
-I would like to go back and add geographic information in at some point.  I had issues with bugs in graylogs web interface when attempting to configure processing pipelines to do this.
+- If you have something exposed, it will be tested.
