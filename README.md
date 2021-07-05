@@ -15,7 +15,7 @@ Overview of the aggregated results:
 ![Overview of the aggregated results](https://github.com/jLevere/SSHoneypot1/blob/main/DashboardOverview.jpg)
 
 ### Setup
-Used a python based pshitt honeypot to log ssh login attempts in json to a text file. Then used a filebeat to scrape the entries in the file, and forwarded them through vpn connection to a graylog stack.  There, the messages where parsed with a json extractor and aggregated in a custom dashboard.
+Used a python based pshitt honeypot to log ssh login attempts in json to a text file. Then used a filebeat to scrape the entries in the file, and forwarded them through vpn connection to a graylog stack.  There, the messages were parsed with a json extractor and aggregated in a custom dashboard.
 
 
 ### Observations
